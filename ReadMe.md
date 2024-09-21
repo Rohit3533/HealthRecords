@@ -7,11 +7,8 @@ This project is a lightweight web-based application for managing and updating po
 - [Technologies](#technologies)
 - [Project Structure](#project-structure)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - **CRUD Operations**: Create, Read, Update, and Delete policies for PHR.
@@ -29,23 +26,23 @@ This project is a lightweight web-based application for managing and updating po
 
 ## Project Structure
 /your-project-root/
-├── .firebase/           # Firebase settings (if applicable)
-├── .idea/               # IDE specific settings (if applicable)
-├── .vscode/             # VSCode settings (if applicable)
-├── __pycache__/         # Python bytecode cache
-├── static/              # Static files (CSS, JavaScript, images)
-├── templates/           # HTML templates for Flask
-├── uploadfiles/         # Uploaded files (if applicable)
-├── app.py               # Main Flask application
-├── chat.py              # Chatbot functionality (if applicable)
-├── data.pth             # Data path for models or files
-├── intents.json         # Intent data for chatbot/AI functionality
-├── model.py             # Model file (for AI/ML models, if applicable)
-├── nltk_utils.py        # NLP utility functions (if applicable)
-├── requirements.txt     # Python package dependencies
-├── sql.sql              # Database schema or sample data
-├── train.py             # Script to train model (if applicable)
-├── .gitignore           # Files and directories to ignore in Git
+**├── .firebase/**           # Firebase settings (if applicable)
+**├── .idea/**               # IDE specific settings (if applicable)
+**├── .vscode/**             # VSCode settings (if applicable)
+**├── __pycache__/**         # Python bytecode cache
+**├── static/**              # Static files (CSS, JavaScript, images)
+**├── templates/**           # HTML templates for Flask
+**├── uploadfiles/**         # Uploaded files (if applicable)
+**├── app.py**               # Main Flask application
+**├── chat.py**             # Chatbot functionality (if applicable)
+**├── data.pth**             # Data path for models or files
+**├── intents.json**         # Intent data for chatbot/AI functionality
+**├── model.py**             # Model file (for AI/ML models, if applicable)
+**├── nltk_utils.py**        # NLP utility functions (if applicable)
+**├── requirements.txt**     # Python package dependencies
+**├── sql.sql**              # Database schema or sample data
+**├── train.py**             # Script to train model (if applicable)
+**├── .gitignore**           # Files and directories to ignore in Git
 
 ## Prerequisites
 To run this project locally, ensure you have the following installed:
